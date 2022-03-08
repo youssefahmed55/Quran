@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentlsit"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.quran.ui.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.quran.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_qiblaFragment"
+            app:destination="@id/qiblaFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_listenQuran"
+            app:destination="@id/listenQuran" />
+    </fragment>
+    <fragment
+        android:id="@+id/qiblaFragment"
+        android:name="com.example.quran.ui.QiblaFragment"
+        android:label="fragment_qibla"
+        tools:layout="@layout/fragment_qibla" />
+    <fragment
+        android:id="@+id/listenQuran"
+        android:name="com.example.quran.ui.ListenQuran"
+        android:label="fragment_listen_quran"
+        tools:layout="@layout/fragment_listen_quran" />
+</navigation>
