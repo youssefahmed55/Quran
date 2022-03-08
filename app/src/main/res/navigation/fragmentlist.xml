@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.quran.ui.SplashFragment"
+        android:name="com.qurann.quran.ui.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.quran.ui.MainFragment"
+        android:name="com.qurann.quran.ui.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -28,12 +28,12 @@
     </fragment>
     <fragment
         android:id="@+id/qiblaFragment"
-        android:name="com.example.quran.ui.QiblaFragment"
+        android:name="com.qurann.quran.ui.QiblaFragment"
         android:label="fragment_qibla"
         tools:layout="@layout/fragment_qibla" />
     <fragment
         android:id="@+id/listenQuran"
-        android:name="com.example.quran.ui.ListenQuran"
+        android:name="com.qurann.quran.ui.ListenQuran"
         android:label="fragment_listen_quran"
         tools:layout="@layout/fragment_listen_quran" />
 </navigation>
