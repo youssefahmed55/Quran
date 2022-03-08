@@ -62,6 +62,13 @@ This App is for reading and listening to the Qur’an and knowing the qiblah
 `   implementation "androidx.media:media:1.4.3"`
    
    
+Download APK :
+
+    https://www.mediafire.com/file/3lvzvjncp6jjxnz/Quran.apk/file
+
+
+https://user-images.githubusercontent.com/99625111/157340085-e1ac7396-c6ac-4ebd-a1dc-60799756cfa5.mp4
+
 
 
 
