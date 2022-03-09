@@ -1,7 +1,7 @@
 # Quran
 
 
-This App is for reading and listening to the Qur’an and knowing the qiblah
+This App is for reading and listening to the Quran and knowing the qiblah
 
 
  -dependencies:
