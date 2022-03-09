@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.qurann.quran">
+    package="com.qurannnappp.quran">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -18,14 +18,14 @@
         android:theme="@style/Theme.Quran"
         tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
         <activity
-            android:name="com.qurann.quran.ui.FirstActivity"
+            android:name="com.qurannnappp.quran.ui.FirstActivity"
             android:exported="false" />
         <activity
-            android:name="com.qurann.quran.ui.SecondActivity"
+            android:name="com.qurannnappp.quran.ui.SecondActivity"
             android:exported="false"
-            android:parentActivityName="com.qurann.quran.ui.FirstActivity" />
+            android:parentActivityName="com.qurannnappp.quran.ui.FirstActivity" />
         <activity
-            android:name="com.qurann.quran.ui.MainActivity"
+            android:name="com.qurannnappp.quran.ui.MainActivity"
             android:configChanges="orientation"
             android:exported="true"
             android:screenOrientation="portrait">
@@ -36,8 +36,8 @@
             </intent-filter>
 
         </activity>
-  <receiver android:name="com.qurann.quran.services.NotificationActionService"></receiver>
-  <service android:name="com.qurann.quran.services.OnClearFromRecentService"></service>
+  <receiver android:name="com.qurannnappp.quran.services.NotificationActionService"></receiver>
+  <service android:name="com.qurannnappp.quran.services.OnClearFromRecentService"></service>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
