@@ -62,6 +62,11 @@ This App is for reading and listening to the Quran and knowing the qiblah
 `   implementation "androidx.media:media:1.4.3"`
    
    
+Download form GooglePlay :
+
+https://play.google.com/store/apps/details?id=com.qurannnappp.quran
+   
+   
 Download APK :
 
     https://www.mediafire.com/file/3lvzvjncp6jjxnz/Quran.apk/file
